@@ -14,27 +14,27 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOInvocationMessage.h"
+#import "EDOInvocationMessage.h"
 
 #include <objc/runtime.h>
 
-#import "Channel/Sources/EDOHostPort.h"
-#import "Service/Sources/EDOBlockObject.h"
-#import "Service/Sources/EDOClientService+Private.h"
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOHostService+Private.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDOMessage.h"
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDOObject.h"
-#import "Service/Sources/EDOParameter.h"
-#import "Service/Sources/EDORemoteException.h"
-#import "Service/Sources/EDORuntimeUtils.h"
-#import "Service/Sources/EDOServiceException.h"
-#import "Service/Sources/EDOServicePort.h"
-#import "Service/Sources/EDOServiceRequest.h"
-#import "Service/Sources/NSObject+EDOParameter.h"
-#import "Service/Sources/NSObject+EDOValue.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "EDOBlockObject.h"
+#import "EDOClientService+Private.h"
+#import "EDOClientService.h"
+#import "EDOHostService+Private.h"
+#import "EDOHostService.h"
+#import "EDOMessage.h"
+#import "EDOObject+Private.h"
+#import "EDOObject.h"
+#import "EDOParameter.h"
+#import "EDORemoteException.h"
+#import "EDORuntimeUtils.h"
+#import "EDOServiceException.h"
+#import "EDOServicePort.h"
+#import "EDOServiceRequest.h"
+#import "NSObject+EDOParameter.h"
+#import "NSObject+EDOValue.h"
 
 // Box the value type directly into NSValue, the other types into a EDOObject, and the nil value.
 #define BOX_VALUE(__value, __target, __service, __hostPort)                               \

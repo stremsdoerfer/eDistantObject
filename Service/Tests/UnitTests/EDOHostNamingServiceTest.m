@@ -16,12 +16,12 @@
 
 #import <XCTest/XCTest.h>
 
-#import "Channel/Sources/EDOChannelPool.h"
-#import "Channel/Sources/EDOHostPort.h"
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOHostNamingService+Private.h"
-#import "Service/Sources/EDOHostNamingService.h"
-#import "Service/Sources/EDOServicePort.h"
+#import "../../Channel/Sources/EDOChannelPool.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "EDOClientService.h"
+#import "EDOHostNamingService+Private.h"
+#import "EDOHostNamingService.h"
+#import "EDOServicePort.h"
 
 static NSString *const kDummyServiceName = @"com.google.testService";
 static const UInt16 kDummyServicePort = 1234;

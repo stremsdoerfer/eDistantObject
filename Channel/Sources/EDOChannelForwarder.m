@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-#import "Channel/Sources/EDOChannelForwarder.h"
+#import "EDOChannelForwarder.h"
 
-#import "Channel/Sources/EDOChannel.h"
-#import "Channel/Sources/EDOChannelErrors.h"
-#import "Channel/Sources/EDOHostPort.h"
+#import "EDOChannel.h"
+#import "EDOChannelErrors.h"
+#import "EDOHostPort.h"
 
 /**
  *  Creates a receiveHandler for the multiplexer to receive the data and forwards to the forwarded

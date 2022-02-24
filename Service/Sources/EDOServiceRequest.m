@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOServiceRequest.h"
+#import "EDOServiceRequest.h"
 
-#import "Service/Sources/EDOMessage.h"
-#import "Service/Sources/EDOServiceError.h"
+#import "EDOMessage.h"
+#import "EDOServiceError.h"
 
 static NSString *const kEDOServiceResponseErrorKey = @"error";
 static NSString *const kEDOServiceResponseDurationKey = @"duration";

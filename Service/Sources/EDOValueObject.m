@@ -14,12 +14,12 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOValueObject.h"
+#import "EDOValueObject.h"
 
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDOObject.h"
+#import "EDOObject+Private.h"
+#import "EDOObject.h"
 
 @implementation EDOValueObject
 

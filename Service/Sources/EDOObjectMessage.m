@@ -14,14 +14,14 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOObjectMessage.h"
+#import "EDOObjectMessage.h"
 
-#import "Channel/Sources/EDOHostPort.h"
-#import "Service/Sources/EDOHostService+Private.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDOMessage.h"
-#import "Service/Sources/EDOObject.h"
-#import "Service/Sources/EDOServiceRequest.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "EDOHostService+Private.h"
+#import "EDOHostService.h"
+#import "EDOMessage.h"
+#import "EDOObject.h"
+#import "EDOServiceRequest.h"
 
 static NSString *const kEDOObjectCoderObjectKey = @"object";
 static NSString *const kEDOObjectCoderHostPortKey = @"hostPort";

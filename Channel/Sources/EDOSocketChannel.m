@@ -14,16 +14,16 @@
 // limitations under the License.
 //
 
-#import "Channel/Sources/EDOSocketChannel.h"
+#import "EDOSocketChannel.h"
 
 #include <arpa/inet.h>
 #include <fcntl.h>
 #include <netinet/tcp.h>
 #include <sys/un.h>
 
-#import "Channel/Sources/EDOChannel.h"
-#import "Channel/Sources/EDOChannelUtil.h"
-#import "Channel/Sources/EDOSocket.h"
+#import "EDOChannel.h"
+#import "EDOChannelUtil.h"
+#import "EDOSocket.h"
 
 #pragma mark - Socket Connection Extension
 

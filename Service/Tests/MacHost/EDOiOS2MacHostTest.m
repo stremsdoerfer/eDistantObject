@@ -16,8 +16,8 @@
 
 #import <XCTest/XCTest.h>
 
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOHostNamingService.h"
+#import "EDOClientService.h"
+#import "EDOHostNamingService.h"
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"
 
 /** The test of communication between iOS physical device and Mac host. */

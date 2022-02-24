@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOObjectMessage.h"
+#import "EDOObjectMessage.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

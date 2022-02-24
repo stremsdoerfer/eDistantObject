@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOObject.h"
-#import "Service/Sources/EDOParameter.h"
-#import "Service/Sources/EDOValueObject.h"
+#import "EDOObject.h"
+#import "EDOParameter.h"
+#import "EDOValueObject.h"
 
 @class EDOHostService;
 @class EDOHostPort;

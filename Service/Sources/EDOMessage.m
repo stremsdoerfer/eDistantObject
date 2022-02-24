@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOMessage.h"
+#import "EDOMessage.h"
 
 static NSString *const kEDOEDOMessageCoderMessageIDKey = @"messageID";
 

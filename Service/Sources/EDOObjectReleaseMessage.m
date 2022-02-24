@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOObjectReleaseMessage.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDOMessage.h"
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDOServiceRequest.h"
+#import "EDOObjectReleaseMessage.h"
+#import "EDOHostService.h"
+#import "EDOMessage.h"
+#import "EDOObject+Private.h"
+#import "EDOServiceRequest.h"
 
-#import "Service/Sources/EDOHostService+Private.h"
+#import "EDOHostService+Private.h"
 
 static NSString *const kEDOObjectReleaseCoderWeaklyReferencedKey = @"weaklyReferenced";
 static NSString *const kEDOObjectReleaseCoderRemoteAddressKey = @"remoteAddress";

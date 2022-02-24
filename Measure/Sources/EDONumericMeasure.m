@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Measure/Sources/EDONumericMeasure.h"
+#import "EDONumericMeasure.h"
 
 @implementation EDONumericMeasure {
   /** The isolation queue to access the measure values. */

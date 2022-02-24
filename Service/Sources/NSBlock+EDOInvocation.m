@@ -17,12 +17,12 @@
 #import <Foundation/Foundation.h>
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOBlockObject.h"
-#import "Service/Sources/EDOHostService+Private.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDOObject.h"
-#import "Service/Sources/EDOParameter.h"
+#import "EDOBlockObject.h"
+#import "EDOHostService+Private.h"
+#import "EDOHostService.h"
+#import "EDOObject+Private.h"
+#import "EDOObject.h"
+#import "EDOParameter.h"
 
 /** Expose the private class interface. */
 @interface NSBlock : NSObject

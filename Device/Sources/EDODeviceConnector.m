@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-#import "Device/Sources/EDODeviceConnector.h"
+#import "EDODeviceConnector.h"
 
-#import "Device/Sources/EDODeviceChannel.h"
-#import "Device/Sources/EDODeviceDetector.h"
-#import "Device/Sources/EDOUSBMuxUtil.h"
+#import "EDODeviceChannel.h"
+#import "EDODeviceDetector.h"
+#import "EDOUSBMuxUtil.h"
 
 NSString *const EDODeviceDidAttachNotification = @"EDODeviceDidAttachNotification";
 NSString *const EDODeviceDidDetachNotification = @"EDODeviceDidDetachNotification";

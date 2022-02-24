@@ -16,10 +16,10 @@
 
 #import "Service/Tests/FunctionalTests/EDOServiceUIBaseTest.h"
 
-#import "Channel/Sources/EDOChannelPool.h"
-#import "Channel/Sources/EDOHostPort.h"
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOClientServiceStatsCollector.h"
+#import "../../Channel/Sources/EDOChannelPool.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "EDOClientService.h"
+#import "EDOClientServiceStatsCollector.h"
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"
 
 @implementation EDOServiceUIBaseTest

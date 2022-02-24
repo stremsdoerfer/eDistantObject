@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Channel/Sources/EDOSocket.h"
+#import "EDOSocket.h"
 
-#import "Channel/Sources/EDOListenSocket.h"
-#import "Channel/Sources/EDOSocketPort.h"
+#import "EDOListenSocket.h"
+#import "EDOSocketPort.h"
 
 #include <arpa/inet.h>
 #include <fcntl.h>

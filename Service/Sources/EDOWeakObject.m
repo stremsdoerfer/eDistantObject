@@ -14,17 +14,17 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOWeakObject.h"
+#import "EDOWeakObject.h"
 
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOBlockObject.h"
-#import "Service/Sources/EDODeallocationTracker.h"
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDOObject.h"
-#import "Service/Sources/EDOServiceException.h"
-#import "Service/Sources/EDOServicePort.h"
-#import "Service/Sources/NSProxy+EDOParameter.h"
+#import "EDOBlockObject.h"
+#import "EDODeallocationTracker.h"
+#import "EDOObject+Private.h"
+#import "EDOObject.h"
+#import "EDOServiceException.h"
+#import "EDOServicePort.h"
+#import "NSProxy+EDOParameter.h"
 
 @implementation EDOWeakObject
 

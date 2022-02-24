@@ -14,12 +14,12 @@
 // limitations under the License.
 //
 
-#import "Device/Sources/EDODeviceChannel.h"
+#import "EDODeviceChannel.h"
 
 #include <sys/socket.h>
 #include <sys/un.h>
 
-#import "Device/Sources/EDOUSBMuxUtil.h"
+#import "EDOUSBMuxUtil.h"
 
 @implementation EDODeviceChannel {
   dispatch_io_t _dispatchChannel;

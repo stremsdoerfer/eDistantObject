@@ -13,14 +13,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-#import "Service/Sources/NSObject+EDOBlockedType.h"
+#import "NSObject+EDOBlockedType.h"
 
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOParameter.h"
-#import "Service/Sources/EDOServiceException.h"
-#import "Service/Sources/NSObject+EDOParameter.h"
-#import "Service/Sources/NSObject+EDOValue.h"
+#import "EDOParameter.h"
+#import "EDOServiceException.h"
+#import "NSObject+EDOParameter.h"
+#import "NSObject+EDOValue.h"
 
 @implementation NSObject (EDOBlockedType)
 

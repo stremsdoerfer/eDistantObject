@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Channel/Sources/EDOChannel.h"
+#import "EDOChannel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

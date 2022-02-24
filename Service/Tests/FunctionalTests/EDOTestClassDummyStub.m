@@ -16,7 +16,7 @@
 
 #import "Service/Tests/TestsBundle/EDOTestClassDummy.h"
 
-#import "Service/Sources/EDOClientService.h"
+#import "EDOClientService.h"
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"
 
 // EDOTestClassDummy stub that connects to the sssion listening on the port.

@@ -16,8 +16,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Service/Sources/EDOObjectMessage.h"
-#import "Service/Sources/EDOServiceRequest.h"
+#import "EDOObjectMessage.h"
+#import "EDOServiceRequest.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

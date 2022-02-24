@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDORemoteVariable.h"
+#import "EDORemoteVariable.h"
 
 @implementation EDORemoteVariable
 

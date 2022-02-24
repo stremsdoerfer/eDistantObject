@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Service/Sources/EDOMessage.h"
+#import "EDOMessage.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

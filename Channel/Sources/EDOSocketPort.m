@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Channel/Sources/EDOSocketPort.h"
+#import "EDOSocketPort.h"
 
 #include <arpa/inet.h>
 #include <sys/un.h>

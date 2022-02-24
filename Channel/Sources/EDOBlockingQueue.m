@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Channel/Sources/EDOBlockingQueue.h"
+#import "EDOBlockingQueue.h"
 
 @implementation EDOBlockingQueue {
   /** The dispatch queue used for the resource isolation/fast lock. */

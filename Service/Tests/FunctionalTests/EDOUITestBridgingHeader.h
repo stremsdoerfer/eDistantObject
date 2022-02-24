@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-#import "Channel/Sources/EDOHostPort.h"
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/NSObject+EDOValueObject.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "EDOClientService.h"
+#import "EDOHostService.h"
+#import "NSObject+EDOValueObject.h"
 #import "Service/Tests/TestsBundle/EDOTestClassDummy.h"
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"

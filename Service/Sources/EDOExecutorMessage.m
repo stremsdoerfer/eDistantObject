@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOExecutorMessage.h"
+#import "EDOExecutorMessage.h"
 #include <stdatomic.h>
 
 @implementation EDOExecutorMessage {

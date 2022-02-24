@@ -16,8 +16,8 @@
 
 #import <XCTest/XCTest.h>
 
-#import "Service/Sources/EDOExecutor.h"
-#import "Service/Sources/EDOServiceError.h"
+#import "EDOExecutor.h"
+#import "EDOServiceError.h"
 
 @interface EDOExecutorTest : XCTestCase
 

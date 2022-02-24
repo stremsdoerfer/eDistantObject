@@ -14,16 +14,16 @@
 // limitations under the License.
 //
 
-#import "Channel/Sources/EDOChannelPool.h"
+#import "EDOChannelPool.h"
 
-#import "Channel/Sources/EDOBlockingQueue.h"
-#import "Channel/Sources/EDOChannel.h"
-#import "Channel/Sources/EDOChannelErrors.h"
-#import "Channel/Sources/EDOHostPort.h"
-#import "Channel/Sources/EDOSocket.h"
-#import "Channel/Sources/EDOSocketChannel.h"
-#import "Channel/Sources/EDOSocketPort.h"
-#import "Device/Sources/EDODeviceConnector.h"
+#import "EDOBlockingQueue.h"
+#import "EDOChannel.h"
+#import "EDOChannelErrors.h"
+#import "EDOHostPort.h"
+#import "EDOSocket.h"
+#import "EDOSocketChannel.h"
+#import "EDOSocketPort.h"
+#import "../../Device/Sources/EDODeviceConnector.h"
 
 /** Timeout for channel fetch. */
 static const int64_t kChannelPoolTimeout = 10 * NSEC_PER_SEC;

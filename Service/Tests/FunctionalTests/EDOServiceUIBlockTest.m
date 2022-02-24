@@ -16,9 +16,9 @@
 
 #import "Service/Tests/FunctionalTests/EDOServiceUIBaseTest.h"
 
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/NSObject+EDOValueObject.h"
+#import "EDOClientService.h"
+#import "EDOHostService.h"
+#import "NSObject+EDOValueObject.h"
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"
 
 // Block tests to assure the block can be invoked remotely from another process.

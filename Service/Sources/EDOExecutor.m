@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOExecutor.h"
+#import "EDOExecutor.h"
 
-#import "Channel/Sources/EDOBlockingQueue.h"
-#import "Service/Sources/EDOExecutorMessage.h"
-#import "Service/Sources/EDOServiceError.h"
+#import "../../Channel/Sources/EDOBlockingQueue.h"
+#import "EDOExecutorMessage.h"
+#import "EDOServiceError.h"
 
 @interface EDOExecutor ()
 // The message queues to process the requests that are attached to this executor.

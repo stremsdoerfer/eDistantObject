@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Measure/Sources/EDONumericMeasure.h"
+#import "EDONumericMeasure.h"
 
 #import <XCTest/XCTest.h>
 

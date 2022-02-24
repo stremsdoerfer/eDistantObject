@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/NSKeyedArchiver+EDOAdditions.h"
+#import "NSKeyedArchiver+EDOAdditions.h"
 
 @implementation NSKeyedArchiver (EDOAdditions)
 

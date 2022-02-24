@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOServicePort.h"
+#import "EDOServicePort.h"
 
-#import "Channel/Sources/EDOHostPort.h"
+#import "../../Channel/Sources/EDOHostPort.h"
 
 static NSString *const EDOServicePortCoderPortKey = @"port";
 static NSString *const EDOServiceHostPortCoderPortKey = @"hostPort";

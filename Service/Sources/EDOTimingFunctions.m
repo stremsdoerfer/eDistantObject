@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOTimingFunctions.h"
+#import "EDOTimingFunctions.h"
 
 #include <dispatch/dispatch.h>
 

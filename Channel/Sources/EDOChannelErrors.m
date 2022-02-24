@@ -1,4 +1,4 @@
-#import "Channel/Sources/EDOChannelErrors.h"
+#import "EDOChannelErrors.h"
 
 NSString *const EDOChannelErrorDomain = @"com.google.edo.channel";
 

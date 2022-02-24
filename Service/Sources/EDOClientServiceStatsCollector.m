@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOClientServiceStatsCollector.h"
+#import "EDOClientServiceStatsCollector.h"
 
-#import "Measure/Sources/EDONumericMeasure.h"
+#import "../../Measure/Sources/EDONumericMeasure.h"
 
 @implementation EDORequestMeasurement
 

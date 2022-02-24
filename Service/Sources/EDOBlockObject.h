@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOObject.h"
+#import "EDOObject.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

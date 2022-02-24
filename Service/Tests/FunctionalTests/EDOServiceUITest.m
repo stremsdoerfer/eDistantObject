@@ -20,14 +20,14 @@
 
 #import <CoreImage/CoreImage.h>
 
-#import "Channel/Sources/EDOHostPort.h"
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOHostNamingService.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDORemoteException.h"
-#import "Service/Sources/EDOServiceError.h"
-#import "Service/Sources/NSObject+EDOBlockedType.h"
-#import "Service/Sources/NSObject+EDOValueObject.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "EDOClientService.h"
+#import "EDOHostNamingService.h"
+#import "EDOHostService.h"
+#import "EDORemoteException.h"
+#import "EDOServiceError.h"
+#import "NSObject+EDOBlockedType.h"
+#import "NSObject+EDOValueObject.h"
 #import "Service/Tests/FunctionalTests/EDOTestDummyInTest.h"
 #import "Service/Tests/TestsBundle/EDOTestClassDummy.h"
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"

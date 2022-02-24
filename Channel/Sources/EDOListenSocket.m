@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Channel/Sources/EDOListenSocket.h"
+#import "EDOListenSocket.h"
 
 #include <arpa/inet.h>
 #include <fcntl.h>
@@ -22,7 +22,7 @@
 #include <stdatomic.h>
 #include <sys/un.h>
 
-#import "Channel/Sources/EDOSocket.h"
+#import "EDOSocket.h"
 
 static char const *gListenSocketQueueLabel = "com.google.edo.socketListen";
 

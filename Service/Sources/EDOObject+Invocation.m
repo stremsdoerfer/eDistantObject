@@ -14,21 +14,21 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOObject.h"
+#import "EDOObject.h"
 
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOBlockObject.h"
-#import "Service/Sources/EDOClientService+Private.h"
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOHostService+Private.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDOInvocationMessage.h"
-#import "Service/Sources/EDOMethodSignatureMessage.h"
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDOParameter.h"
-#import "Service/Sources/EDORemoteException.h"
-#import "Service/Sources/EDOServicePort.h"
+#import "EDOBlockObject.h"
+#import "EDOClientService+Private.h"
+#import "EDOClientService.h"
+#import "EDOHostService+Private.h"
+#import "EDOHostService.h"
+#import "EDOInvocationMessage.h"
+#import "EDOMethodSignatureMessage.h"
+#import "EDOObject+Private.h"
+#import "EDOParameter.h"
+#import "EDORemoteException.h"
+#import "EDOServicePort.h"
 
 static EDORemoteException *RemoteExceptionWithLocalInformation(EDORemoteException *remoteException,
                                                                EDOObject *target,

@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOHostService.h"
+#import "EDOHostService.h"
 
 /** The internal use for the default request handlers. */
 @interface EDOHostService (Handlers)

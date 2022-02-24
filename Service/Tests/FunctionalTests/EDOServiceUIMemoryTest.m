@@ -16,12 +16,12 @@
 
 #import "Service/Tests/FunctionalTests/EDOServiceUIBaseTest.h"
 
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDORemoteException.h"
-#import "Service/Sources/EDOServiceException.h"
-#import "Service/Sources/NSObject+EDOValueObject.h"
-#import "Service/Sources/NSObject+EDOWeakObject.h"
+#import "EDOClientService.h"
+#import "EDOHostService.h"
+#import "EDORemoteException.h"
+#import "EDOServiceException.h"
+#import "NSObject+EDOValueObject.h"
+#import "NSObject+EDOWeakObject.h"
 #import "Service/Tests/FunctionalTests/EDOTestDummyInTest.h"
 #import "Service/Tests/TestsBundle/EDOTestClassDummy.h"
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"

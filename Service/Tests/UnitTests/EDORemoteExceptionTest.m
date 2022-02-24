@@ -16,9 +16,9 @@
 
 #import <XCTest/XCTest.h>
 
-#import "Service/Sources/EDORemoteException.h"
-#import "Service/Sources/NSKeyedArchiver+EDOAdditions.h"
-#import "Service/Sources/NSKeyedUnarchiver+EDOAdditions.h"
+#import "EDORemoteException.h"
+#import "NSKeyedArchiver+EDOAdditions.h"
+#import "NSKeyedUnarchiver+EDOAdditions.h"
 
 @interface EDORemoteExceptionTest : XCTestCase
 @end

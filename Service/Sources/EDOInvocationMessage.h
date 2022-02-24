@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOServiceRequest.h"
+#import "EDOServiceRequest.h"
 
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDORemoteException.h"
+#import "EDOObject+Private.h"
+#import "EDORemoteException.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

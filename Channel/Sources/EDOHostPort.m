@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Channel/Sources/EDOHostPort.h"
+#import "EDOHostPort.h"
 
 #import <TargetConditionals.h>
 

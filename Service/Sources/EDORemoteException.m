@@ -1,4 +1,4 @@
-#import "Service/Sources/EDORemoteException.h"
+#import "EDORemoteException.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

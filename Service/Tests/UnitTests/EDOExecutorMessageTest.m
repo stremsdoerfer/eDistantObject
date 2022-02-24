@@ -1,6 +1,6 @@
 #import <XCTest/XCTest.h>
 
-#import "Service/Sources/EDOExecutorMessage.h"
+#import "EDOExecutorMessage.h"
 
 @interface EDOExecutorMessageTest : XCTestCase
 @end

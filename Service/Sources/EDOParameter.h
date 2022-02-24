@@ -17,7 +17,7 @@
 #import <Foundation/Foundation.h>
 #import <objc/runtime.h>
 
-#import "Service/Sources/EDOObject.h"
+#import "EDOObject.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

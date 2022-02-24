@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOServiceError.h"
+#import "EDOServiceError.h"
 
 NSErrorDomain const EDOServiceErrorDomain = @"com.google.edo.service";
 

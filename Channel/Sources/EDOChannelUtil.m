@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Channel/Sources/EDOChannelUtil.h"
+#import "EDOChannelUtil.h"
 
 static const uint64_t kGEDOSocketFrameHeaderTag = 0xc080c080;
 

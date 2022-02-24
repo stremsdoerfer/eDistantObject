@@ -14,14 +14,14 @@
 // limitations under the License.
 //
 
-#import "Channel/Sources/EDOChannelMultiplexer.h"
+#import "EDOChannelMultiplexer.h"
 
-#import "Channel/Sources/EDOBlockingQueue.h"
-#import "Channel/Sources/EDOChannel.h"
-#import "Channel/Sources/EDOHostPort.h"
-#import "Channel/Sources/EDOSocket.h"
-#import "Channel/Sources/EDOSocketChannel.h"
-#import "Channel/Sources/EDOSocketPort.h"
+#import "EDOBlockingQueue.h"
+#import "EDOChannel.h"
+#import "EDOHostPort.h"
+#import "EDOSocket.h"
+#import "EDOSocketChannel.h"
+#import "EDOSocketPort.h"
 
 static const int64_t kEDOConnectTimeout = 3 * NSEC_PER_SEC;
 static const int64_t kEDOGetChannelTimeout = 5 * NSEC_PER_SEC;

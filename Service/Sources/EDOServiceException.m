@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOServiceException.h"
+#import "EDOServiceException.h"
 
 NSExceptionName const EDOServiceGenericException = @"EDOServiceGenericException";
 NSExceptionName const EDOServiceAllocValueTypeException = @"EDOServiceAllocValueTypeException";

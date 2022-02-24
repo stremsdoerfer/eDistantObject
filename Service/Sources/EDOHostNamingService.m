@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOHostNamingService.h"
+#import "EDOHostNamingService.h"
 
-#import "Channel/Sources/EDOChannelPool.h"
-#import "Channel/Sources/EDOHostPort.h"
-#import "Service/Sources/EDOHostNamingService+Private.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDOServicePort.h"
+#import "../../Channel/Sources/EDOChannelPool.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "EDOHostNamingService+Private.h"
+#import "EDOHostService.h"
+#import "EDOServicePort.h"
 
 @implementation EDOHostNamingService {
   // The mapping from service name to host service port.

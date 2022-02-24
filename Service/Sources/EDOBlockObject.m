@@ -14,12 +14,12 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOBlockObject.h"
+#import "EDOBlockObject.h"
 
 #include <objc/message.h>
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOObject+Private.h"
+#import "EDOObject+Private.h"
 
 @class EDOServicePort;
 

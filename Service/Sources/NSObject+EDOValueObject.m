@@ -13,12 +13,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-#import "Service/Sources/NSObject+EDOValueObject.h"
+#import "NSObject+EDOValueObject.h"
 
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOValueObject.h"
-#import "Service/Sources/NSObject+EDOValue.h"
+#import "EDOValueObject.h"
+#import "NSObject+EDOValue.h"
 
 @implementation NSObject (EDOValueObject)
 

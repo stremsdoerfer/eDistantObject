@@ -14,14 +14,14 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOMethodSignatureMessage.h"
+#import "EDOMethodSignatureMessage.h"
 
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDOMessage.h"
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDORuntimeUtils.h"
-#import "Service/Sources/EDOServicePort.h"
-#import "Service/Sources/EDOServiceRequest.h"
+#import "EDOHostService.h"
+#import "EDOMessage.h"
+#import "EDOObject+Private.h"
+#import "EDORuntimeUtils.h"
+#import "EDOServicePort.h"
+#import "EDOServiceRequest.h"
 
 #import <objc/runtime.h>
 

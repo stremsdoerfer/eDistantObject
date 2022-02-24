@@ -18,19 +18,19 @@
 
 #import <objc/runtime.h>
 
-#import "Channel/Sources/EDOHostPort.h"
-#import "Service/Sources/EDOClassMessage.h"
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOHostService+Private.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDOInvocationMessage.h"
-#import "Service/Sources/EDOMethodSignatureMessage.h"
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDOObject.h"
-#import "Service/Sources/EDOObjectMessage.h"
-#import "Service/Sources/EDOParameter.h"  // IWYU pragma: keep
-#import "Service/Sources/EDORemoteException.h"
-#import "Service/Sources/EDOServicePort.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "EDOClassMessage.h"
+#import "EDOClientService.h"
+#import "EDOHostService+Private.h"
+#import "EDOHostService.h"
+#import "EDOInvocationMessage.h"
+#import "EDOMethodSignatureMessage.h"
+#import "EDOObject+Private.h"
+#import "EDOObject.h"
+#import "EDOObjectMessage.h"
+#import "EDOParameter.h"  // IWYU pragma: keep
+#import "EDORemoteException.h"
+#import "EDOServicePort.h"
 
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"
 

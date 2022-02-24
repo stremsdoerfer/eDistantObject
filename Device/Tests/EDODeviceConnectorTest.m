@@ -15,9 +15,9 @@
 
 #import <XCTest/XCTest.h>
 
-#import "Device/Sources/EDODeviceConnector.h"
-#import "Device/Sources/EDODeviceDetector.h"
-#import "Device/Sources/EDOUSBMuxUtil.h"
+#import "EDODeviceConnector.h"
+#import "EDODeviceDetector.h"
+#import "EDOUSBMuxUtil.h"
 
 #import <OCMock/OCMock.h>
 

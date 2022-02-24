@@ -14,15 +14,15 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDODeallocationTracker.h"
+#import "EDODeallocationTracker.h"
 
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOClientService+Private.h"
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDOObjectReleaseMessage.h"
-#import "Service/Sources/EDOWeakObject.h"
+#import "EDOClientService+Private.h"
+#import "EDOClientService.h"
+#import "EDOObject+Private.h"
+#import "EDOObjectReleaseMessage.h"
+#import "EDOWeakObject.h"
 
 @interface EDODeallocationTracker ()
 

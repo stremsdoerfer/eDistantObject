@@ -14,18 +14,18 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOObject.h"
+#import "EDOObject.h"
 
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOClientService+Private.h"
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDOObjectReleaseMessage.h"
-#import "Service/Sources/EDOParameter.h"
-#import "Service/Sources/EDOServiceException.h"
-#import "Service/Sources/EDOServicePort.h"
-#import "Service/Sources/EDOValueObject.h"
+#import "EDOClientService+Private.h"
+#import "EDOClientService.h"
+#import "EDOObject+Private.h"
+#import "EDOObjectReleaseMessage.h"
+#import "EDOParameter.h"
+#import "EDOServiceException.h"
+#import "EDOServicePort.h"
+#import "EDOValueObject.h"
 
 static NSString *const kEDOObjectCoderPortKey = @"edoServicePort";
 static NSString *const kEDOObjectCoderRemoteAddressKey = @"edoRemoteAddress";

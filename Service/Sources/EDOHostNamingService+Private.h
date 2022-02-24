@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOHostNamingService.h"
+#import "EDOHostNamingService.h"
 
 #import <Foundation/Foundation.h>
 

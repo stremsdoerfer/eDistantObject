@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Channel/Sources/EDOChannelErrors.h"
+#import "EDOChannelErrors.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

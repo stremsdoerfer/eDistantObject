@@ -14,14 +14,14 @@
 // limitations under the License.
 //
 
-#import "DeviceForwarder/Sources/EDODeviceForwardersManager.h"
+#import "EDODeviceForwardersManager.h"
 
-#import "Channel/Sources/EDOChannelErrors.h"
-#import "Channel/Sources/EDOChannelForwarder.h"
-#import "Channel/Sources/EDOHostPort.h"
-#import "Channel/Sources/EDOSocket.h"
-#import "Channel/Sources/EDOSocketChannel.h"
-#import "Device/Sources/EDODeviceConnector.h"
+#import "../../Channel/Sources/EDOChannelErrors.h"
+#import "../../Channel/Sources/EDOChannelForwarder.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "../../Channel/Sources/EDOSocket.h"
+#import "../../Channel/Sources/EDOSocketChannel.h"
+#import "../../Device/Sources/EDODeviceConnector.h"
 
 /**
  *  The number of tries the manager attempts to connect to the multiplexer at start.

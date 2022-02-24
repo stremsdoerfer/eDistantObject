@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/NSKeyedUnarchiver+EDOAdditions.h"
+#import "NSKeyedUnarchiver+EDOAdditions.h"
 
 @implementation NSKeyedUnarchiver (EDOAdditions)
 

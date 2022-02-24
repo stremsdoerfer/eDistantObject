@@ -14,15 +14,15 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/NSObject+EDOParameter.h"
+#import "NSObject+EDOParameter.h"
 
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOHostService+Private.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDOParameter.h"
-#import "Service/Sources/EDOProtocolObject.h"
-#import "Service/Sources/NSObject+EDOValue.h"
+#import "EDOHostService+Private.h"
+#import "EDOHostService.h"
+#import "EDOParameter.h"
+#import "EDOProtocolObject.h"
+#import "NSObject+EDOValue.h"
 
 // Create a static protocol class.
 static Class GetProtocolClass() {

@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOProtocolObject.h"
+#import "EDOProtocolObject.h"
 
 static NSString *const kEDOProtocolObjectCoderProtocolName = @"protocolName";
 

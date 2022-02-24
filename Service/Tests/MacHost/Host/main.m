@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Device/Sources/EDODeviceConnector.h"
+#import "../../Device/Sources/EDODeviceConnector.h"
 #import "Service/Tests/MacHost/Host/ServiceRegistrationHelper.h"
 
 // Default service registration timeout.

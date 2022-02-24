@@ -20,7 +20,7 @@
 
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOClientService.h"
+#import "EDOClientService.h"
 #import "Service/Tests/FunctionalTests/EDOTestDummyInTest.h"
 #import "Service/Tests/TestsBundle/EDOTestProtocolInApp.h"
 

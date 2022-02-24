@@ -14,16 +14,16 @@
 // limitations under the License.
 //
 
-#import "DeviceForwarder/Sources/EDODeviceForwardersManager.h"
+#import "EDODeviceForwardersManager.h"
 
 #import <XCTest/XCTest.h>
 
-#import "Channel/Sources/EDOChannelMultiplexer.h"
-#import "Channel/Sources/EDOHostPort.h"
-#import "Channel/Sources/EDOSocket.h"
-#import "Channel/Sources/EDOSocketChannel.h"
-#import "Channel/Sources/EDOSocketPort.h"
-#import "Device/Sources/EDODeviceConnector.h"
+#import "../../Channel/Sources/EDOChannelMultiplexer.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "../../Channel/Sources/EDOSocket.h"
+#import "../../Channel/Sources/EDOSocketChannel.h"
+#import "../../Channel/Sources/EDOSocketPort.h"
+#import "../../Device/Sources/EDODeviceConnector.h"
 
 #import <OCMock/OCMock.h>
 

@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/NSObject+EDOWeakObject.h"
+#import "NSObject+EDOWeakObject.h"
 
 #include <objc/runtime.h>
 
-#import "Service/Sources/EDOWeakObject.h"
+#import "EDOWeakObject.h"
 
 @implementation NSObject (EDOWeakObject)
 

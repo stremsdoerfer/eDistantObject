@@ -16,7 +16,7 @@
 
 #import "Service/Tests/MacHost/Host/ServiceRegistrationHelper.h"
 
-#import "Service/Sources/EDOHostService.h"
+#import "EDOHostService.h"
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"
 
 @implementation ServiceRegistrationHelper {

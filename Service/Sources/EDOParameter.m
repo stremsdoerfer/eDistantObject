@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOParameter.h"
+#import "EDOParameter.h"
 
-#import "Service/Sources/EDOBlockObject.h"
-#import "Service/Sources/EDOObject.h"
+#import "EDOBlockObject.h"
+#import "EDOObject.h"
 
 static NSString *const kObjCIdType = @"@";
 static NSString *const kObjCSelectorType = @":";

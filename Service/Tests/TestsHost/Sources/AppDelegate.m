@@ -16,8 +16,8 @@
 
 #import "Service/Tests/TestsHost/Sources/AppDelegate.h"
 
-#import "Service/Sources/EDOHostNamingService.h"
-#import "Service/Sources/EDOHostService.h"
+#import "EDOHostNamingService.h"
+#import "EDOHostService.h"
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"
 
 @interface AppDelegate ()

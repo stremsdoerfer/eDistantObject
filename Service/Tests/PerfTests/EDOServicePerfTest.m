@@ -16,12 +16,12 @@
 
 #import <XCTest/XCTest.h>
 
-#import "Channel/Sources/EDOHostPort.h"
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOHostService+Private.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDOServicePort.h"
-#import "Service/Sources/NSObject+EDOValueObject.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "EDOClientService.h"
+#import "EDOHostService+Private.h"
+#import "EDOHostService.h"
+#import "EDOServicePort.h"
+#import "NSObject+EDOValueObject.h"
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"
 
 #import <OCMock/OCMock.h>

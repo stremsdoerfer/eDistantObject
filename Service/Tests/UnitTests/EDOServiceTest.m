@@ -13,22 +13,22 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-#import "Service/Sources/EDOHostService.h"
+#import "EDOHostService.h"
 
 #import <XCTest/XCTest.h>
 
-#import "Channel/Sources/EDOHostPort.h"
-#import "Service/Sources/EDOClientService+Private.h"
-#import "Service/Sources/EDOClientService.h"
-#import "Service/Sources/EDOHostNamingService.h"
-#import "Service/Sources/EDOHostService+Private.h"
-#import "Service/Sources/EDOObject+Private.h"
-#import "Service/Sources/EDOObject.h"
-#import "Service/Sources/EDOObjectMessage.h"
-#import "Service/Sources/EDORemoteException.h"
-#import "Service/Sources/EDOServicePort.h"
-#import "Service/Sources/EDOServiceRequest.h"
-#import "Service/Sources/NSObject+EDOValueObject.h"
+#import "../../Channel/Sources/EDOHostPort.h"
+#import "EDOClientService+Private.h"
+#import "EDOClientService.h"
+#import "EDOHostNamingService.h"
+#import "EDOHostService+Private.h"
+#import "EDOObject+Private.h"
+#import "EDOObject.h"
+#import "EDOObjectMessage.h"
+#import "EDORemoteException.h"
+#import "EDOServicePort.h"
+#import "EDOServiceRequest.h"
+#import "NSObject+EDOValueObject.h"
 #import "Service/Tests/TestsBundle/EDOTestDummy.h"
 #import "Service/Tests/TestsBundle/EDOTestNonNSCodingType.h"
 #import "Service/Tests/TestsBundle/EDOTestProtocol.h"

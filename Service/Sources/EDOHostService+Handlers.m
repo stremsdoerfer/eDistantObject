@@ -14,15 +14,15 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/EDOHostService+Handlers.h"
+#import "EDOHostService+Handlers.h"
 
-#import "Service/Sources/EDOClassMessage.h"
-#import "Service/Sources/EDOInvocationMessage.h"
-#import "Service/Sources/EDOMethodSignatureMessage.h"
-#import "Service/Sources/EDOObjectAliveMessage.h"
-#import "Service/Sources/EDOObjectMessage.h"
-#import "Service/Sources/EDOObjectReleaseMessage.h"
-#import "Service/Sources/EDOServiceRequest.h"
+#import "EDOClassMessage.h"
+#import "EDOInvocationMessage.h"
+#import "EDOMethodSignatureMessage.h"
+#import "EDOObjectAliveMessage.h"
+#import "EDOObjectMessage.h"
+#import "EDOObjectReleaseMessage.h"
+#import "EDOServiceRequest.h"
 
 @implementation EDOHostService (Handlers)
 

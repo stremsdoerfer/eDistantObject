@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-#import "Service/Sources/NSProxy+EDOParameter.h"
+#import "NSProxy+EDOParameter.h"
 
-#import "Service/Sources/EDOHostService+Private.h"
-#import "Service/Sources/EDOHostService.h"
-#import "Service/Sources/EDOParameter.h"
+#import "EDOHostService+Private.h"
+#import "EDOHostService.h"
+#import "EDOParameter.h"
 
 @implementation NSProxy (EDOParameter)
 
