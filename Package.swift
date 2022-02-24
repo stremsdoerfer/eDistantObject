@@ -38,7 +38,7 @@ let package = Package(
         .target(
             name: "EDODeviceForwarder",
             dependencies: ["EDOChannel", "EDODevice"],
-            path: "DeviceForwarder/Sources",
+            path: "Sources/DeviceForwarder",
             publicHeadersPath: "include"),
         .testTarget(
             name: "eDistantObjectTests",
