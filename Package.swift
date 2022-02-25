@@ -48,7 +48,7 @@ let package = Package(
             publicHeadersPath: "include"),
         .target(
             name: "EDODeviceForwarder",
-            dependencies: ["EDOChannel", "EDODevice"],
+            dependencies: [],
             path: "DeviceForwarder/Sources",
             publicHeadersPath: "include"),
         .target(
