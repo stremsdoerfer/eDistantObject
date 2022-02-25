@@ -18,7 +18,7 @@
 
 #include <objc/runtime.h>
 
-#import "../../Channel/Sources/EDOChannel.h"
+#import "../../Channel/Sources/EDOChannelProtocol.h"
 #import "../../Channel/Sources/EDOChannelPool.h"
 #import "../../Channel/Sources/EDOHostPort.h"
 #import "EDOBlockObject.h"

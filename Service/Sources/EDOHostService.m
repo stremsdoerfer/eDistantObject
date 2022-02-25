@@ -18,7 +18,7 @@
 
 #include <objc/runtime.h>
 
-#import "../../Channel/Sources/EDOChannel.h"
+#import "../../Channel/Sources/EDOChannelProtocol.h"
 #import "../../Channel/Sources/EDOHostPort.h"
 #import "../../Channel/Sources/EDOSocket.h"
 #import "../../Channel/Sources/EDOSocketChannel.h"
