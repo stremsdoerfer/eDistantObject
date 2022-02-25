@@ -19,6 +19,12 @@ let package = Package(
         .library(
             name: "EDOMeasure",
             targets: ["EDOMeasure"]),
+        .library(
+            name: "EDOChannel",
+            targets: ["EDOChannel"]),
+        .library(
+            name: "EDODevice",
+            targets: ["EDODevice"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -33,11 +39,13 @@ let package = Package(
         .target(
             name: "EDOChannel",
             dependencies: ["EDODevice"],
-            path: "Channel/Sources"),
+            path: "Channel/Sources",
+            publicHeadersPath: "include"),
         .target(
             name: "EDODevice",
             dependencies: [],
-            path: "Device/Sources"),
+            path: "Device/Sources",
+            publicHeadersPath: "include"),
         .target(
             name: "EDODeviceForwarder",
             dependencies: ["EDOChannel", "EDODevice"],
