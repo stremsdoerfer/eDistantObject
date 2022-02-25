@@ -38,7 +38,7 @@ let package = Package(
             dependencies: []),
         .target(
             name: "EDOChannel",
-            dependencies: ["EDODevice"],
+            dependencies: [],
             path: "Channel/Sources",
             publicHeadersPath: "include"),
         .target(
