@@ -17,7 +17,7 @@
 #import "EDOChannelPool.h"
 
 #import "EDOBlockingQueue.h"
-#import "EDOChannel.h"
+#import "EDOChannelProtocol.h"
 #import "EDOChannelErrors.h"
 #import "EDOHostPort.h"
 #import "EDOSocket.h"

@@ -21,7 +21,7 @@
 #include <netinet/tcp.h>
 #include <sys/un.h>
 
-#import "EDOChannel.h"
+#import "EDOChannelProtocol.h"
 #import "EDOChannelUtil.h"
 #import "EDOSocket.h"
 

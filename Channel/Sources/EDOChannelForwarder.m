@@ -16,7 +16,7 @@
 
 #import "EDOChannelForwarder.h"
 
-#import "EDOChannel.h"
+#import "EDOChannelProtocol.h"
 #import "EDOChannelErrors.h"
 #import "EDOHostPort.h"
 
